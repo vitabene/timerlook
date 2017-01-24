@@ -1,0 +1,15 @@
+{
+  "name": "timerlook",
+  "version": "0.0.1",
+  "description": "a really simple theme changer for e.ggtimer.com",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chrome",
+    "extension"
+  ],
+  "author": "Vitezslav Benes",
+  "license": "ISC"
+}
