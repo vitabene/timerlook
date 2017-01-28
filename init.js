@@ -7,13 +7,18 @@ var init = (function(){
       bg.style.backgroundColor = bgC;
     }
   }
-  var txtF = obj.timerlook.fontFamily;
+  var txtF = obj.timerlook.fontFamily,
+      co = obj.timerlook.color;
   if (txtF !== undefined) {
     var txt = document.getElementById('progressText');
     if (txt != undefined) {
       txt.style.fontFamily = txtF;
     }
+    if (co != undefined) {
+      txt.style.color = co;
+    }
   }
+
   });
 })();
 chrome.storage.onChanged.addListener(function(changes, namespace) {

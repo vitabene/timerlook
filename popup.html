@@ -6,7 +6,32 @@
   <style media="screen">
     #popup {
       width: 300px;
-      height: 400px;
+      background-color: rgb(180, 180, 180);
+      height: 200px;
+      margin: 0;
+      padding: 0;
+      font-family: 'Ubuntu';
+      text-align: center;
+    }
+    .style-input, label {
+      display: block;
+      margin-top: 10px;
+      width: 100%;
+      font-family: 'Ubuntu';
+      border: none;
+      padding: 5px;
+      text-align: center;
+    }
+    #submit {
+      width: 100%;
+      display: block;
+      cursor: pointer;
+      background-color: #2a2a2a;
+      padding: 8px;
+      color: #fff;
+      font-family: 'Ubuntu';
+      margin-top: 10px;
+      border: none;
     }
   </style>
 </head>
@@ -14,6 +39,11 @@
   <div class="formgroup">
     <label for="">set background color</label>
     <input class="jscolor style-input" name="background-color"/>
+  </div>
+  <div class="formgroup">
+  <div class="formgroup">
+    <label for="">set font color</label>
+    <input class="jscolor style-input" name="color"/>
   </div>
   <div class="formgroup">
     <label for="">set font</label>
